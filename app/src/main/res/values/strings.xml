@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CarRental</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="preference_file_key">PreferenceFile</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="checkbox">checkbox</string>
+
+</resources>

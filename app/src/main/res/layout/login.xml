@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D36335"
+    tools:context="com.upb.carrental.Logging.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/deal"
+
+        />
+
+    <EditText
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/txt_email"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint = "Email"
+        android:focusable = "true"
+        android:textColorHighlight = "#5E2CB6"
+        android:textColorHint = "#ffffff"
+        android:layout_marginTop = "86dp"
+        android:layout_below = "@+id/imageView"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentEnd = "true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/txt_pwd"
+        android:layout_below="@+id/txt_email"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txt_email"
+        android:layout_marginStart="30dp"
+        android:textColorHint="#ffffff"
+        android:hint="Password" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox"
+        android:layout_below="@+id/txt_pwd"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#ffffff"
+        android:hint="Keep me signed in"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/rounded"
+        android:text="Login"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize = "0.15in"/>
+
+</RelativeLayout>

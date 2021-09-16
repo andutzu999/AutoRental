@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/record_vehicle"
+        android:textColor="#000"
+        android:fontFamily="serif"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Vehicle"/>
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/record_duration"
+        android:fontFamily="serif"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Duration"/>
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/record_price"
+        android:fontFamily="serif"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="Price"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977545340194",
+    "project_id": "autorental-5bda9",
+    "storage_bucket": "autorental-5bda9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977545340194:android:a4f88ab668d69c33a2717b",
+        "android_client_info": {
+          "package_name": "com.upb.carrental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977545340194-dgo11l3089sh4kln2963dktvnb4nr8p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxyss9vXaSpd25XTEjxoN-8GzwhUtl56Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977545340194-dgo11l3089sh4kln2963dktvnb4nr8p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
